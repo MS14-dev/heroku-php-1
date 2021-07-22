@@ -1,14 +1,35 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" referrerpolicy="no-referrer"></script>
-    <script src="./js/script.js"></script>
-</head>
-<body>
-    <h1>Hi</h1>
+<?php 
+require_once('./components/header.php');
+?>
+    <div class="container-fluid" id="index-carousel-div">
+        <div class="row">
+            
+            <div class="col-md-12" >
+              <h1 id="index-carousel-text">foxbot</h1>
+            </div>
+            
+            <div class="col-md-12" id="index-services-div"><br><br>
+               <div class="row">
+                 <h1 id="index-services-h3" class="col-md-12">Services</h1>
+                 <div class="index-services-inner-div col-md-3" id="index-services-inner-div-1">
+                     <img src="./images/index/web.png">
+                     <h4>Web design/development</h4>
+                 </div>
+                 <div class="index-services-inner-div col-md-3" id="index-services-inner-div-2">
+                     <img src="./images/index/logo.png">
+                     <h4>Logo design</h4>
+                 </div>
+                 <div class="index-services-inner-div col-md-3" id="index-services-inner-div-3">
+                     <img src="./images/index/ui.png">
+                     <h4>UI/UX</h4>
+                 </div>
+               </div>
+            </div>
+            
+            <div class="col-md-12">
+               
+            </div>
+        </div>
+    </div>
 </body>
 </html>
